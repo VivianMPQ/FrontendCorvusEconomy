@@ -3,38 +3,32 @@
     {
       "id": 1,
       "name": "Michael Jackson",
-      "phone": 51,
       "email": "michaeljackson@gmail.com"
 
     },
     {
       "id": 2,
       "name": "Madonna Ciccone",
-      "phone": 63,
       "email": "madonna@gmail.com"
     },
     {
       "id": 3,
       "name": "Stefani Germanotta",
-      "phone": 36,
       "email": "ladygaga@gmail.com"
     },
     {
       "id": 4,
       "name": "Britney Spears",
-      "phone": 40,
       "email": "britney@gmail.com"
     },
     {
       "id": 5,
       "name": "Rihanna Fenty",
-      "phone": 34,
       "email": "rihanna@gmail.com"
     },
     {
       "id": 6,
       "name": "John Doe",
-      "phone": 34,
       "email": "jhon.doe@gmail.com"
     }
   ],
