@@ -1,127 +1,19 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Michael Jackson",
-      "email": "michaeljackson@gmail.com"
-
+      "email": "lean@gmail.com",
+      "password": "$2a$10$fir6.OWG.pOsnpuuPduRpOakzjmIlcP11HPav8wSCKaahRTZMb1qS",
+      "id": 5
     },
     {
-      "id": 2,
-      "name": "Madonna Ciccone",
-      "email": "madonna@gmail.com"
+      "email": "lea@gmail.com",
+      "password": "$2a$10$diVA6LUycLozWr/UwaPQA.acZbB1l0iPnJA46LyjTpJdLNv2yAMjy",
+      "id": 6
     },
     {
-      "id": 3,
-      "name": "Stefani Germanotta",
-      "email": "ladygaga@gmail.com"
-    },
-    {
-      "id": 4,
-      "name": "Britney Spears",
-      "email": "britney@gmail.com"
-    },
-    {
-      "id": 5,
-      "name": "Rihanna Fenty",
-      "email": "rihanna@gmail.com"
-    },
-    {
-      "id": 6,
-      "name": "John Doe",
-      "email": "jhon.doe@gmail.com"
-    }
-  ],
-  "students": [
-    {
-      "id": 1,
-      "name": "Michael Jackson",
-      "age": 51,
-      "address": "USA"
-    },
-    {
-      "id": 2,
-      "name": "Madonna Ciccone",
-      "age": 63,
-      "address": "USA"
-    },
-    {
-      "id": 3,
-      "name": "Stefani Germanotta",
-      "age": 36,
-      "address": "USA"
-    },
-    {
-      "id": 4,
-      "name": "Britney Spears",
-      "age": 40,
-      "address": "USA"
-    },
-    {
-      "id": 5,
-      "name": "Rihanna Fenty",
-      "age": 34,
-      "address": "Barbados"
-    },
-    {
-      "id": 6,
-      "name": "Beyoncé Giselle Knowles",
-      "age": 40,
-      "address": "USA"
-    },
-    {
-      "id": 7,
-      "name": "Ariana Grande",
-      "age": 28,
-      "address": "USA"
-    },
-    {
-      "id": 8,
-      "name": "Faraón Love Shady",
-      "age": 21,
-      "address": "PERU"
-    },
-    {
-      "id": 9,
-      "name": "Benito Martinez (Bad Bunny)",
-      "age": 28,
-      "address": "PUERTO RICO"
-    },
-    {
-      "id": 10,
-      "name": "Chencho Corleone",
-      "age": 43,
-      "address": "PUERTO RICO"
-    },
-    {
-      "id": 11,
-      "name": "Rosalia Vila",
-      "age": 28,
-      "address": "ESPAÑA"
-    },
-    {
-      "id": 12,
-      "name": "Tokischa Peralta",
-      "age": 26,
-      "address": "REPUBLICA DOMINACANA"
-    },
-    {
-      "name": "Adele",
-      "age": "34",
-      "address": "Reino Unido",
-      "id": 14
-    },
-    {
-      "name": "Lana del rey",
-      "age": "36",
-      "address": "USA",
-      "id": 15
-    },
-    {
-      "name": "Vivian Maite",
-      "age": "22",
-      "address": "PERU ",
-      "id": 16
+      "email": "britney12@gmail.com",
+      "password": "$2a$10$fmvY5W3c7ybmCEYMsh6dt.jEP5RNlJK2I1QaESITH4VfeqGyej60a",
+      "id": 7
     }
   ]
 }

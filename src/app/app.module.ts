@@ -23,6 +23,7 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {MatCheckboxModule} from "@angular/material/checkbox";
 import {MatSliderModule} from "@angular/material/slider";
 import {MatDatepickerModule} from "@angular/material/datepicker";
+import {SignInService} from "./security/service/sign-in.service";
 
 @NgModule({
   declarations: [
@@ -54,7 +55,7 @@ import {MatDatepickerModule} from "@angular/material/datepicker";
     FormsModule,
     ReactiveFormsModule,
   ],
-  providers: [],
+  providers: [SignInService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
