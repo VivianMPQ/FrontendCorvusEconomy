@@ -2,7 +2,8 @@
   <div class="margin-b20 margin-t10">
     <img src="/assets/Logo_Transparente.jpg" alt="logo" class="logoform">
   </div>
-  <mat-card class="card center-h center-v">
+  <mat-card class="card center-h center-v" [formGroup]="signInForm" >
+
     <div class="margin-b20">
       <mat-card-title class="margin-t10">Inicio de sesión</mat-card-title>
     </div>
@@ -12,6 +13,7 @@
              placeholder="user@gmail.com"
              formControlName="email"
              required/>
+
       <div *ngIf="email.invalid && (email.dirty|| email!.touched)">
         <!--              si el email es invalido-->
         <mat-error *ngIf="email.errors?.['email']">You must enter a valid email address</mat-error>

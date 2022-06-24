@@ -8,7 +8,7 @@ import {catchError, retry, throwError} from "rxjs";
 })
 export class SignInService {
   //poner la ruta de la api
-  basePath: string = 'http://localhost:3000/api/v1';
+  basePath: string = 'http://localhost:3000/api/v1/auth';
   httpOptions = {
     headers: new HttpHeaders({'Content-Type': 'application/json'})
   };

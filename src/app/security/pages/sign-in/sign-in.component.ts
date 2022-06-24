@@ -23,6 +23,7 @@ export class SignInComponent {
   get password(){return this.signInForm.controls['password'];}
 
   signIn(){
+    console.log(this.signInForm.value);
     this.authService.signIn(this.signInForm.value).subscribe((response: any)=>{
       localStorage.setItem('accessToken',JSON.stringify(response.accessToken));
       localStorage.setItem('currentUser',JSON.stringify(response.user));

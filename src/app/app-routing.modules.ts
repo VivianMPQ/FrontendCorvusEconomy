@@ -8,7 +8,7 @@ import {InputComponent} from "./public/input/input.component";
 import {OutputComponent} from "./public/output/output.component";
 
 const routes: Routes = [
-  { path: "", redirectTo: "sing-in", pathMatch: "full" },
+  { path: "", redirectTo: "sign-in", pathMatch: "full" },
   { path: "sign-in", component: SignInComponent },
   { path: "sign-up", component: SignUpComponent },
   { path: "reset-password", component: ResetPasswordComponent },
