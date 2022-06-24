@@ -24,6 +24,7 @@ import {MatCheckboxModule} from "@angular/material/checkbox";
 import {MatSliderModule} from "@angular/material/slider";
 import {MatDatepickerModule} from "@angular/material/datepicker";
 import {SignInService} from "./security/service/sign-in.service";
+import {RouterTestingModule} from "@angular/router/testing";
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import {SignInService} from "./security/service/sign-in.service";
   imports: [
     BrowserModule,
 
+    RouterTestingModule,
     AppRoutingModule,
     RouterModule,
     HttpClientModule,

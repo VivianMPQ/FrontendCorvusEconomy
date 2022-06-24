@@ -25,4 +25,12 @@ export class AppComponent {
       return null;
     }
   }
+
+  // signOut(){
+  //   localStorage.removeItem('currentUser');
+  //   localStorage.removeItem('accessToken');
+  //   this.route.navigate(['sign-in']).then();
+  //   console.log("Sign Out");
+  //
+  // }
 }
