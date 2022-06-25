@@ -26,11 +26,11 @@ export class AppComponent {
     }
   }
 
-  // signOut(){
-  //   localStorage.removeItem('currentUser');
-  //   localStorage.removeItem('accessToken');
-  //   this.route.navigate(['sign-in']).then();
-  //   console.log("Sign Out");
-  //
-  // }
+  signOut() {
+    localStorage.removeItem('currentUser');
+    localStorage.removeItem('accessToken');
+    this.route.navigate(['sign-in']).then();
+    console.log("Sign Out");
+
+  }
 }

@@ -25,6 +25,7 @@ import {MatSliderModule} from "@angular/material/slider";
 import {MatDatepickerModule} from "@angular/material/datepicker";
 import {SignInService} from "./security/service/sign-in.service";
 import {RouterTestingModule} from "@angular/router/testing";
+import {MatListModule} from "@angular/material/list";
 
 @NgModule({
   declarations: [
@@ -56,6 +57,7 @@ import {RouterTestingModule} from "@angular/router/testing";
     MatDatepickerModule,
     FormsModule,
     ReactiveFormsModule,
+    MatListModule,
   ],
   providers: [SignInService],
   bootstrap: [AppComponent]

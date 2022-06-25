@@ -1,11 +1,12 @@
 <mat-toolbar color="primary">
-<a *ngIf="getCurrentUserEmail() === null" mat-button [routerLink]="'./sign-in'">Sign-In</a>
+  <mat-divider [vertical]="true" [inset]="true"></mat-divider>
+  <a *ngIf="getCurrentUserEmail() === null" mat-button [routerLink]="'./sign-in'">Sign-In</a>
 
-<div *ngIf="getCurrentUserEmail()">
+  <div *ngIf="getCurrentUserEmail()">
 
-  <a mat-button>{{ getCurrentUserEmail() }}</a>
-  <!--al llamar a una funcion se usa (click)-->
-<!-- <a mat-button (click)="signOut">Sign-Out</a>-->
-</div>
+    <a mat-button>{{ getCurrentUserEmail() }}</a>
+    <!--al llamar a una funcion se usa (click)-->
+    <button mat-raised-button class="b-color material-button" (click)="signOut()"><span>Sign Out</span></button>
+  </div>
 </mat-toolbar>
 <router-outlet></router-outlet>

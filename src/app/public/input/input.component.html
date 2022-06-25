@@ -1,15 +1,17 @@
-
 <div class="container verde">
   <mat-card class="card">
     <div class="margin-b20">
-      <mat-card-title class="margin-t10">Método de amortización constante </mat-card-title>
+      <mat-card-title class="margin-t10">Método de amortización constante</mat-card-title>
     </div>
     <div class="label2">
       <span class="azul">Tipo de moneda</span>
       <span class="example-spacer"></span>
 
       <mat-form-field class="example-full-width label rosado" appearance="fill">
-        <mat-label>Seleccione un tipo de moneda</mat-label>
+        <input matInput
+               placeholder="Seleccione un tipo de moneda"
+               formControlName="email"
+               required/>
         <mat-select>
           <mat-option value="11">Soles</mat-option>
           <mat-option value="12">Dolares</mat-option>
@@ -23,8 +25,9 @@
       <span class="azul">Valor Nominal</span>
       <span class="example-spacer"></span>
       <mat-form-field class="example-full-width label rosado" appearance="fill">
-        <mat-label>Ingrese una cantidad</mat-label>
-        <input matInput>
+        <input matInput
+               placeholder="Ingrese una cantidad"
+               required/>
       </mat-form-field>
     </div>
 
@@ -32,8 +35,9 @@
       <span class="azul">Valor Comercial</span>
       <span class="example-spacer"></span>
       <mat-form-field class="example-full-width label rosado" appearance="fill">
-        <mat-label>Ingrese una cantidad</mat-label>
-        <input matInput>
+        <input matInput
+               placeholder="Ingrese una cantidad"
+               required/>
       </mat-form-field>
     </div>
 
@@ -41,8 +45,9 @@
       <span class="azul">Número de Años</span>
       <span class="example-spacer"></span>
       <mat-form-field class="example-full-width label rosado" appearance="fill">
-        <mat-label>Ingrese años</mat-label>
-        <input matInput>
+        <input matInput
+               placeholder="Ingrese una cantidad de años"
+               required/>
       </mat-form-field>
     </div>
 
@@ -50,7 +55,9 @@
       <span class="azul">Frecuencia del cupón</span>
       <span class="example-spacer"></span>
       <mat-form-field class="example-full-width label rosado" appearance="fill">
-        <mat-label>Seleccione una frecuencia</mat-label>
+        <input matInput
+               placeholder="Seleccione una frecuencia"
+               required/>
         <mat-select>
           <mat-option value="21">Mensual</mat-option>
           <mat-option value="22">Bimestral</mat-option>
@@ -66,7 +73,9 @@
       <span class="azul">Número de días por año</span>
       <span class="example-spacer"></span>
       <mat-form-field class="example-full-width label rosado" appearance="fill">
-        <mat-label>Seleccione número de días</mat-label>
+        <input matInput
+               placeholder="Seleccione número de dias"
+               required/>
         <mat-select>
           <mat-option value="31">360</mat-option>
           <mat-option value="32">365</mat-option>
@@ -78,7 +87,9 @@
       <span class="azul">Tipo de tasa de interés</span>
       <span class="example-spacer"></span>
       <mat-form-field class="example-full-width label rosado" appearance="fill">
-        <mat-label>Seleccione tipo de tasa</mat-label>
+        <input matInput
+               placeholder="Seleccione tipo de tasas"
+               required/>
         <mat-select>
           <mat-option value="41">Nominal</mat-option>
           <mat-option value="42">Efectiva</mat-option>
@@ -108,8 +119,9 @@
       <span class="azul">Tasa de interés</span>
       <span class="example-spacer"></span>
       <mat-form-field class="example-full-width label rosado" appearance="fill">
-        <mat-label>Ingrese un porcentaje sin signo "%"</mat-label>
-        <input matInput>
+        <input matInput
+               placeholder="Ingrese un porcentaje sin signo %"
+               required/>
       </mat-form-field>
     </div>
 
@@ -117,8 +129,9 @@
       <span class="azul">Tasa anual de descuento</span>
       <span class="example-spacer"></span>
       <mat-form-field class="example-full-width label rosado" appearance="fill">
-        <mat-label>Ingrese un porcentaje sin signo "%"</mat-label>
-        <input matInput>
+        <input matInput
+               placeholder="Ingrese un porcentaje sin signo %"
+               required/>
       </mat-form-field>
     </div>
 
@@ -126,8 +139,9 @@
       <span class="azul">Impuesto a la Renta</span>
       <span class="example-spacer"></span>
       <mat-form-field class="example-full-width label rosado" appearance="fill">
-        <mat-label>Ingrese un porcentaje sin signo "%"</mat-label>
-        <input matInput>
+        <input matInput
+               placeholder="Ingrese un porcentaje sin signo %"
+               required/>
       </mat-form-field>
     </div>
 
@@ -135,8 +149,9 @@
       <span class="azul">Fecha de Emisión</span>
       <span class="example-spacer"></span>
       <mat-form-field class="example-full-width label rosado" appearance="fill">
-        <mat-label>DD/MM/YYYY (separar dígitos con "/")</mat-label>
-        <input matInput>
+        <input matInput
+               placeholder="DD/MM/YYYY (separar dígitos con '/')"
+               required/>
       </mat-form-field>
 
     </div>
@@ -145,8 +160,9 @@
       <span class="azul">Porcentaje de Prima</span>
       <span class="example-spacer"></span>
       <mat-form-field class="example-full-width label rosado" appearance="fill">
-        <mat-label>Ingrese un porcentaje sin signo "%"</mat-label>
-        <input matInput>
+        <input matInput
+               placeholder="Ingrese un porcentaje sin signo %"
+               required/>
       </mat-form-field>
     </div>
 
@@ -154,8 +170,9 @@
       <span class="azul">Porcentaje de Estructuración</span>
       <span class="example-spacer"></span>
       <mat-form-field class="example-full-width label rosado" appearance="fill">
-        <mat-label>Ingrese un porcentaje sin signo "%"</mat-label>
-        <input matInput>
+        <input matInput
+               placeholder="Ingrese un porcentaje sin signo %"
+               required/>
       </mat-form-field>
     </div>
 
@@ -176,8 +193,9 @@
       <span class="azul">Tasa de Colocación</span>
       <span class="example-spacer"></span>
       <mat-form-field class="example-full-width label rosado" appearance="fill">
-        <mat-label>Ingrese un porcentaje sin signo "%"</mat-label>
-        <input matInput>
+        <input matInput
+               placeholder="Ingrese un porcentaje sin signo %"
+               required/>
       </mat-form-field>
     </div>
 
@@ -198,8 +216,9 @@
       <span class="azul">Porcentaje de Flotación</span>
       <span class="example-spacer"></span>
       <mat-form-field class="example-full-width label rosado" appearance="fill">
-        <mat-label>Ingrese un porcentaje sin signo "%"</mat-label>
-        <input matInput>
+        <input matInput
+               placeholder="Ingrese un porcentaje sin signo %"
+               required/>
       </mat-form-field>
     </div>
 
@@ -220,8 +239,9 @@
       <span class="azul">Porcentaje de CAVALI</span>
       <span class="example-spacer"></span>
       <mat-form-field class="example-full-width label rosado" appearance="fill">
-        <mat-label>Ingrese un porcentaje sin signo "%"</mat-label>
-        <input matInput>
+        <input matInput
+               placeholder="Ingrese un porcentaje sin signo %"
+               required/>
       </mat-form-field>
     </div>
 
@@ -254,18 +274,18 @@
     background-size: cover;
   }
 
-  .font{
+  .font {
 
     font-family: "Roboto";
   }
 
-  .b-color{
+  .b-color {
     background-color: #6DB0E8;
-    color:white;
+    color: white;
     /*//font-style: Roboto;*/
   }
 
-  .card{
+  .card {
     background-color: #bfedef;
     border: white 25px solid;
     display: grid;
@@ -274,29 +294,29 @@
 
   }
 
-  .margin-t20{
+  .margin-t20 {
     margin-top: 20px;
   }
 
-  .margin-t10{
+  .margin-t10 {
     margin-top: 10px;
   }
 
-  .margin-b20{
+  .margin-b20 {
     margin-bottom: 20px;
   }
 
-  .container{
+  .container {
     display: grid;
     align-items: center;
     justify-items: center;
   }
 
-  .label{
+  .label {
     width: 250px;
   }
 
-  .logoform{
+  .logoform {
     height: 100px;
     width: 250px;
   }
@@ -305,7 +325,7 @@
     flex: 1 1 auto;
   }
 
-  .label2{
+  .label2 {
     background-color: #a2d7ed;
     height: 52px;
     display: flex;
@@ -313,18 +333,20 @@
     width: 600px;
   }
 
-  .azul{
-    margin-left: 20px;}
+  .azul {
+    margin-left: 20px;
+  }
 
-  .rosado{
-    background-color:white;
+  .rosado {
+    background-color: white;
     height: 52px;
     width: 300px;
   }
 
-  .verde{
+  .verde {
     padding-bottom: 30px;
-    padding-top: 20px;}
+    padding-top: 20px;
+  }
 
 
 </style>
